@@ -1,0 +1,21 @@
+{
+    "name": "volosatov/welcomer",
+    "description": "Console werlcomer",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jevgenij Volosatov",
+            "email": "fformula@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Volosatov\\": "src"
+        }
+    }
+}
